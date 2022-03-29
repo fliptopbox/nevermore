@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Pirata+One&display=swap");
+body {
+    background-color: #373737;
+    background-attachment: fixed;
+    color: #000;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 4rem;
+    display: block;
+    text-align: center;
+    font-family: "Pirata One", cursive;
+    margin: -2rem auto 0px;
+    padding: 0;
+    line-height: 0.9;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: "Pirata One", cursive;
+    margin: 2rem auto 0.25em;
+    height: 1.2em;
+
+    font-size: 14vw;
+    margin: 1rem auto;
+}
+
+svg {
+    width: 70%;
+    height: auto;
+}
+
+p {
+    padding: 0 2rem;
+}
+
+ul {
+    column-count: 1;
+    font-size: 2rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    list-style: none;
+    max-width: 640px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.para {
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    margin: 6rem auto;
+}
+
+figure {
+    margin: 5vh auto 2rem;
+    display: block;
+    text-align: center;
+}
+
+li {
+    font-size: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    margin: 12vh 0 3vh;
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+del {
+    background: #111;
+    color: #333333;
+    padding: 0 6px;
+}
+
+del:hover {
+    background: darkred;
+    cursor: pointer;
+    color: black;
+}
+
+p {
+    max-width: 640px;
+    margin: 3rem auto 6rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2;
+}
+
+p em {
+    color: white;
+}
+
+.today {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.tomorrow {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 6rem;
+        margin: -1rem auto -2rem;
+    }
+    h3 {
+        margin: -2rem auto 0;
+    }
+
+    h2 {
+        margin: 0 auto 0.25em;
+    }
+
+    ul {
+        column-count: 2;
+    }
+
+    svg {
+        width: 400px;
+        hieght: auto;
+    }
+
+    figure {
+        margin: 15vh auto -1rem;
+    }
+}
